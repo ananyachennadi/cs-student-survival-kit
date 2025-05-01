@@ -22,18 +22,14 @@
 ```python
 print("hello, world")
 
-name = input("Whats your name? ")  # asks for user input
+name = input("What's your name? ")  # asks for user input
 print("Hello,", name)  # prints with a space in between hello, and name
 print("Hello, " + name)
 print(f"Hello, {name}")  # most common way
 ```
 
-<aside>
-💡
+> 💡 **Tip:** *To run this, save the file as `hello.py`, then run:*
 
-**Tip:** *To run this, save the file as `hello.py`, then run in terminal:*
-
-</aside>
 
 ```bash
 python hello.py
@@ -45,8 +41,8 @@ python hello.py
 # This is a single-line comment
 
 """
-This is a
-multi-line comment
+This is a multi-line comment
+(not technically a comment, but often used like one)
 """
 ```
 
@@ -59,7 +55,7 @@ name = "Alice"     # string
 is_ready = True    # boolean
 ```
 
-## Type Conversion
+### Type Conversion
 
 ```python
 int("5")       # 5
@@ -118,12 +114,7 @@ average = sum(scores) / len(scores)
 print(f"Average: {average}")
 ```
 
-<aside>
-💡
-
-**Tip:** *A list in Python is essentially a dynamic array.* 
-
-</aside>
+> 💡 **Tip:** *A list in Python is essentially a dynamic array.* 
 
 ### Tuples
 
@@ -131,12 +122,7 @@ print(f"Average: {average}")
 coords = (10, 20)
 ```
 
-<aside>
-💡
-
-**Tip:** *Tuples cannot be modified — no changing, appending, or deleting elements.*
-
-</aside>
+> 💡 **Tip:** *Tuples cannot be modified — no changing, appending, or deleting elements.*
 
 ### Dictionaries
 
@@ -174,12 +160,9 @@ else:
     print("Not found")
 ```
 
-<aside>
-💡
 
-**Tip:** *A dictionary in Python is essentially a hash map.* 
+> 💡 **Tip:** *A dictionary in Python is essentially a hash map.* 
 
-</aside>
 
 # Control Flow
 
@@ -222,7 +205,7 @@ elif s in ["n", "no"]:
 ### For Loop
 
 ```python
-for i in range(5):  #iterates 5 times (0-4)
+for i in range(5):  # iterates 5 times (0-4)
     print(i)
 ```
 
@@ -247,12 +230,7 @@ for i in range(5):
 
 # Functions
 
-<aside>
-✅
-
-**Best Practice:** In Python, when you define your own functions, it's common practice to create a `main()` function to organise your program's logic. Then, you call this `main()` function at the end of your script:
-
-</aside>
+> ✅ **Best Practice:** In Python, when you define your own functions, it's common practice to create a `main()` function to organise your program's logic. Then, you call this `main()` function at the end of your script:
 
 ```python
 def main():
@@ -277,22 +255,19 @@ else:
     print("Can run")
 ```
 
-<aside>
-🔍
+> 🔍 **Common exceptions:**
+> 
+> - `TypeError`
+> - `ValueError`
+> - `IndexError`
+> - `KeyError`
 
-*Common exceptions:*
-
-- `TypeError`
-- `ValueError`
-- `IndexError`
-- `KeyError`
-</aside>
 
 # List Comprehensions (Great for interviews!)
 
 List comprehensions offer a concise, readable way to create new lists by processing or filtering items. 
 
-### Flatten nested lists
+### Flatten nested lists (standard way)
 
 ```python
 matrix = [[1, 2], [3, 4], [5, 6]]
@@ -304,6 +279,12 @@ for row in matrix:
 Read it as:
 for each row in matrix, and for each num in that row, include num in the new list.
 """
+```
+### Flatten nested lists (list comprehension version)
+
+```python
+matrix = [[1, 2], [3, 4], [5, 6]]
+flattened = [num for row in matrix for num in row]
 ```
 
 ### Create a list of all numbers from 1 to 20 that are divisible by 3
