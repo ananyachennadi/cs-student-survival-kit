@@ -2,6 +2,18 @@
 
 > A curated Python syntax reference for beginners and interview prep. Clear, example-driven, and focused on the essentials you’ll actually use.
 > 
+# Table of Contents
+
+- [Basic Syntax](#basic-syntax-essential-for-beginners)
+- [Variables & Data Types](#variables--data-types)
+- [Type Conversion](#type-conversion)
+- [Operators](#operators)
+- [Data Structures](#data-structures)
+- [Control Flow](#control-flow)
+- [Loops](#loops)
+- [Functions](#functions)
+- [Error Handling](#error-handling)
+- [List Comprehensions (Great for interviews!)](#list-comprehensions-great-for-interviews)
 
 # Basic Syntax (Essential for Beginners)
 
