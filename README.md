@@ -1,24 +1,30 @@
-# First-Year Tech Resource Hub 📚
+# 📚 CS Resource Repository
 
-Welcome! This repo contains curated notes, guides, and prep material for first-year CS students preparing for internships, coding interviews, and open source contributions.
+This is a curated collection of notes, guides, and tools I'm building to support early-stage Computer Science students — based on personal learning, university modules, and industry preparation.
 
-## 🧠 Topics Covered
+## ✅ What's included so far
 
-- CS50x weekly notes and project tips
-- CV and LinkedIn preparation for tech internships
-- Git & GitHub workflows for beginners
-- Good first issues and open-source onboarding
+- **Python**
+  - `python-cheatsheet-for-beginners.md`: Syntax, data types, loops, functions
+  - `file_io.md`: Reading/writing files
+  - `useful-libraries.md`: Overview of key Python libraries
+- **Internship Prep**
+  - `notion-tracker.md`: Template to keep on top of your internship applications
 
-## 📁 Sections
+## 🛠️ In Progress
 
-- `CS50x/`: My weekly notes + final project ideas
-- `Internship-Prep/`: Tips for CVs, mock interviews, and applications
-- `Git-Guides/`: Simple Git and GitHub walkthroughs
+- SQL practice notes and queries
+- HTML, CSS and JavaScript cheatsheet
+- Beginner-friendly LeetCode/DSA pattern guides
+- Additional technical writing and interview prep
+- GitHub workflows and open source navigation tips
 
-## 💡 Who Is This For?
+## 🎯 Who is this for?
 
-Anyone in their first year of Computer Science (or self-learning) who wants a clear, beginner-friendly launchpad.
+- First-year CS students
+- Aspiring interns or junior devs
+- Anyone revising key fundamentals
 
-## 🔗 Related Posts
+---
 
-- [LinkedIn Reflection on Building This Repo](#) *(Optional)*
+> ✍️ Currently in progress — contributions will be open soon!
