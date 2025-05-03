@@ -15,17 +15,12 @@ file_object = open(filename, mode, encoding="utf-8")
 
 **Common Modes:**
 
-- `'r'` for reading (default)
-- `'w'` for writing (truncates the file)
-- `'a'` for appending
-- `'r+'` for both reading and writing
+- `"r"` for reading (default)
+- `"w"` for writing (truncates the file)
+- `"a"` for appending
+- `"r+"` for both reading and writing
 
-<aside>
-✅
-
-**Best Practice:** Use a `with` block to open a file because it automatically handles closing the file
-
-</aside>
+> ✅ **Best Practice:** Use a `with` block to open a file because it automatically handles closing the file
 
 ```python
 with open("data.txt", "r") as f:
@@ -75,23 +70,14 @@ with open("output.txt", "a") as f:  # Notice we are using a instead of w
 
 ### Additional Tips & Best Practices
 
-<aside>
-⚠️
-
-**Always close files.**
+> ⚠️ **Always close files.**
 
 Use context managers (`with`) to automatically handle closure.
 
-</aside>
+> ⚠️ **Be careful with write mode.**
 
-<aside>
-⚠️
+`"w"` will overwrite an existing file — use `"a"` for appending if needed.
 
-**Be careful with write mode.**
-
-`'w'` will overwrite an existing file — use `'a'` for appending if needed.
-
-</aside>
 
 # `.csv` — Comma-Separated Values
 
@@ -130,9 +116,9 @@ Bob,25
 import csv
 
 # use tuples if the data is meant to be unchangeable
-data = [['Name', 'Age'], ['Alice', 22], ['Bob', 25]]
+data = [["Name", "Age"], ["Alice", 22], ["Bob", 25]]
 
-with open('output.csv', 'w', newline='') as csvfile:
+with open("output.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(data)  # Writes multiple rows
 ```
@@ -155,7 +141,7 @@ Using `DictReader`:
 ```python
 import csv
 
-with open('data.csv', newline='') as f:
+with open("data.csv", newline="") as f:
     reader = csv.DictReader(f)
     for row in reader:
         print(row)
@@ -164,8 +150,8 @@ with open('data.csv', newline='') as f:
 Output:
 
 ```python
-{'Name': 'Alice', 'Age': '22'}
-{'Name': 'Bob', 'Age': '25'}
+{"Name": "Alice", "Age": "22"}
+{"Name": "Bob", "Age": "25"}
 ```
 
 ### Using `DictWriter`
@@ -178,15 +164,15 @@ Using `DictWriter`:
 ```python
 import csv
 
-with open('output.csv', 'w', newline='') as f:
-    fieldnames = ['Name', 'Age']
+with open("output.csv", "w", newline="") as f:
+    fieldnames = ["Name", "Age"]
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     # fieldnames=fieldnames tells the writes what the keys are
 		# f is the file object opened for writing
 		
     writer.writeheader()  # Writes: Name,Age
-    writer.writerow({'Name': 'Alice', 'Age': 22})
-    writer.writerow({'Name': 'Bob', 'Age': 25})
+    writer.writerow({"Name": "Alice", "Age": 22})
+    writer.writerow({"Name": "Bob", "Age": 25})
 ```
 
 This writes:
@@ -204,7 +190,7 @@ Bob,25
 ```python
 import json
 
-with open('data.json') as json_file:
+with open("data.json") as json_file:
     data = json.load(json_file)  # Parses JSON into Python dict/list
     print(data)
 ```
@@ -216,7 +202,7 @@ import json
 
 data = {"name": "Alice", "age": 22}
 
-with open('output.json', 'w') as json_file:
+with open("output.json", "w") as json_file:
     json.dump(data, json_file, indent=4)  # indent for pretty print
 ```
 
@@ -225,8 +211,8 @@ with open('output.json', 'w') as json_file:
 ```python
 import json
 
-json_str = '{"name": "Alice", "age": 22}'
-data = json.loads(json_str)
+json_str = "{"name": "Alice", "age": 22}"
+data = json.loads(json_str) # Converts JSON string into Python dictionary
 print(data)
 ```
 
@@ -235,7 +221,7 @@ print(data)
 ```python
 import json
 
-data = {'name': 'Bob', 'age': 25}
+data = {"name": "Bob", "age": 25}
 json_str = json.dumps(data)
 print(json_str)
 ```
