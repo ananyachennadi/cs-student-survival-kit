@@ -24,7 +24,3 @@ This is a curated collection of notes, guides, and tools I'm building to support
 - First-year CS students
 - Aspiring interns or junior devs
 - Anyone revising key fundamentals
-
----
-
-> ✍️ Currently in progress — contributions will be open soon!
