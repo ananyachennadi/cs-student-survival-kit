@@ -1,4 +1,7 @@
 # Open-Source CS Learning Hub
+![GitHub last commit](https://img.shields.io/github/last-commit/ananyachennadi/cs-student-survival-kit)
+![GitHub License](https://img.shields.io/github/license/ananyachennadi/cs-student-survival-kit)
+
 👋 **Welcome to my personal Computer Science learning hub!**
 
 This repository serves as a centralised collection of notes, code snippets, and curated resources from my university modules and self-study. My aim is to simplify complex CS concepts and provide accessible materials to support peer learning and academic success.
