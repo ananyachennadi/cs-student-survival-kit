@@ -87,8 +87,6 @@ You can do this by using a `<link>` element which is a void element (does not ne
 <img class="thumbnail" src="thumbnails/thumbnail1.webp">
 ```
 
-![Screenshot 2025-06-17 at 10.19.50.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_10.19.50.png)
-
 ```html
 <input type="text" placeholder="Search">
 ```
@@ -96,8 +94,6 @@ You can do this by using a `<link>` element which is a void element (does not ne
 ## The `<div>` element
 
 The `<div>` element is a container (just a box) used to group elements together and is a block element by default
-
-![Screenshot 2025-06-17 at 10.38.07.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_10.38.07.png)
 
 ```html
 <style>
@@ -131,8 +127,6 @@ The `<script>` element is used to include **JavaScript code** inside your HTML f
 
 To use CSS styling you need a `<style>` tag in your HTML code
 
-![Screenshot 2025-06-16 at 18.08.55.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/2a3a4bb0-ed7c-47fc-84bf-3c3345f8d354.png)
-
 ```html
 <style>
     button{
@@ -150,10 +144,6 @@ To use CSS styling you need a `<style>` tag in your HTML code
 ```
 
 However say you have buttons that need different styles, you make classes of styles and implement it like below:
-
-![Screenshot 2025-06-16 at 18.18.24.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_18.18.24.png)
-
-![Screenshot 2025-06-16 at 18.21.31.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_18.21.31.png)
 
 ```html
 <style>
@@ -193,12 +183,6 @@ This is known as a pseudo-class (add extra styles in a certain situation)
 
 Another example of a pseudo-class is `.className: active{ }` which defines the style when an element is clicked
 
-![Screenshot 2025-06-16 at 18.49.34.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_18.49.34.png)
-
-![Screenshot 2025-06-16 at 18.50.12.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_18.50.12.png)
-
-![Screenshot 2025-06-16 at 18.50.56.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_18.50.56.png)
-
 ```css
 .join-button:hover{
         background-color: rgb(48, 22, 140);
@@ -228,10 +212,6 @@ We also need to make the transition smooth instead of immediate
     }
 ```
 
-![Screenshot 2025-06-16 at 18.54.57.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_18.54.57.png)
-
-![Screenshot 2025-06-16 at 18.55.20.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_18.55.20.png)
-
 ```css
 .tweet-button:hover{
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
@@ -248,15 +228,9 @@ Click the hover icon to highlight any element on the page and DevTools will show
 
 The **Computed** tab will show you the element’s final style
 
-![Screenshot 2025-06-16 at 19.06.38.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_19.06.38.png)
-
 ## CSS Box Model
 
 If you set the height and the width what can happen sometimes is the text might not fit within the box so instead you can add spacing on the inside
-
-![Screenshot 2025-06-16 at 22.16.31.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_22.16.31.png)
-
-![Screenshot 2025-06-16 at 22.22.13.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_22.22.13.png)
 
 ```css
 .join-button{
@@ -272,8 +246,6 @@ If you set the height and the width what can happen sometimes is the text might 
 You can use fonts other than the default fonts by using Google Fonts
 
 Select the font you want as well as the styles you want and copy the html and add it to the head section of your code
-
-![Screenshot 2025-06-16 at 23.07.09.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_23.07.09.png)
 
 ```css
 <style>
@@ -305,8 +277,6 @@ Select the font you want as well as the styles you want and copy the html and ad
 </p>
 ```
 
-![Screenshot 2025-06-16 at 23.14.48.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-16_at_23.14.48.png)
-
 The `<strong>` `</strong>` element makes text bold
 
 The `<u>` `</u>` element creates text that is underlined
@@ -324,9 +294,7 @@ There are three types of elements in HTML:
 - ***Block element*** (takes up an entire line e.g. `<p>`)
     
     Even if you change the width, block elements will still take up the entire line
-    
-    ![Screenshot 2025-06-17 at 10.26.03.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_10.26.03.png)
-    
+        
 
 - ***Inline-block element*** (only takes up as much space as needed e.g. `<img>`, `<input>`)
 - ***Inline element*** (appear within a line of text e.g. `<strong>)`
@@ -350,16 +318,12 @@ You can switch between these types
 
 ## Nested Layouts Technique
 
-![Screenshot 2025-06-17 at 10.44.17.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_10.44.17.png)
-
 There are two types of layouts:
 
 - Vertical Layout
 - Horizontal Layout
 
 Each section is its own `<div>` element
-
-![Screenshot 2025-06-17 at 10.45.07.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_10.45.07.png)
 
 ```html
 <style>
@@ -376,10 +340,6 @@ Each section is its own `<div>` element
 ## CSS Grid
 
 CSS Grid is a layout system that allows you to create layouts by defining **rows and columns** directly on a container
-
-![Screenshot 2025-06-17 at 13.52.45.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_13.52.45.png)
-
-![Screenshot 2025-06-17 at 13.59.25.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_13.59.25.png)
 
 As you can see if there are more <div> elements than columns they get added to a new row
 
@@ -409,8 +369,6 @@ As you can see if there are more <div> elements than columns they get added to a
 </html>
 ```
 
-![Screenshot 2025-06-17 at 14.01.18.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_14.01.18.png)
-
 ```html
 <div style="
     display: grid;
@@ -418,8 +376,6 @@ As you can see if there are more <div> elements than columns they get added to a
     /*1fr means take up the rest of the spad in the grid*/
  ">
 ```
-
-![Screenshot 2025-06-17 at 14.06.19.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_14.06.19.png)
 
 ```html
 <div style="
@@ -431,10 +387,6 @@ As you can see if there are more <div> elements than columns they get added to a
 ">
 ```
 
-![Screenshot 2025-06-17 at 14.16.50.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_14.16.50.png)
-
-![Screenshot 2025-06-17 at 14.16.40.png](HTML%20+%20CSS%20Cheatsheet%202143c77369b38015bc26c9c1285a8196/Screenshot_2025-06-17_at_14.16.40.png)
-
 For images, they take their original size so to fit it in a container:
 
 ```css
@@ -442,7 +394,3 @@ For images, they take their original size so to fit it in a container:
 	width: 100%;
 }
 ```
-
-## Flexbox
-
-Flexbox is designed for 1D layouts - arranging items in a row or column
