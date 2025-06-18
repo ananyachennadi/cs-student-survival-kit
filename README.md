@@ -9,29 +9,19 @@ This is an **actively developing initiative**, with new content and refinements 
 
 ## ✅ What You'll Find Here:
 
-### Python Programming Notes
-
-Curated syntax cheatsheet covering core concepts, **data structures**, and interview-focused topics like **List Comprehensions**. Includes code snippets and useful libraries.
-
-
-### Web Development Notes (HTML, CSS, JavaScript)
-Detailed notes on foundational web technologies, including:
-* **HTML:** Structuring web content.
-* **CSS:** Styling and responsive design.
-* **JavaScript:** Client-side scripting and dynamic web interactions.
-
-### Internship Application Tracker (Notion)
-A live, organised system for managing internship applications, deadlines, and tracking progress throughout the recruitment process.
-[**Access the Notion Tracker Here**](https://sheer-lobster-282.notion.site/Internship-application-tracker-template-1e53c77369b380a58bafe37532dd47a1)
+* **🐍 Python Programming:** Curated syntax cheatsheet for core concepts, **data structures**, and interview-focused topics like **List Comprehensions**.
+* **🌐 Web Development:** Comprehensive notes on foundational HTML, CSS, and JavaScript for building dynamic web interfaces.
+* **🚀 Internship Application Tracker:** A live Notion system designed to streamline and manage your job application process.
+    * [**Access the Notion Tracker Here**](https://sheer-lobster-282.notion.site/Internship-application-tracker-template-1e53c77369b380a58bafe37532dd47a1)
 
 ---
 
-## 🔨 In Progress
+## ⬆️ What's Next / In Progress:
 
-- SQL practice notes and queries
-- Beginner-friendly LeetCode/DSA pattern guides
-- Additional technical writing and interview prep
-- GitHub workflows and open source navigation tips
+* **SQL Practice:** Advanced SQL notes and practice queries for database mastery.
+* **DSA Pattern Guides:** Beginner-friendly LeetCode/DSA pattern guides for interview preparation.
+* **Technical Writing:** Exploring additional technical writing and interview prep resources.
+* **Open Source Navigation:** Tips for GitHub workflows and navigating open-source projects effectively.
 
 ---
 
@@ -48,6 +38,8 @@ While this is primarily a personal learning repository, constructive feedback or
 ---
 
 ## Connect with Me:
+
+Feel free to reach out for questions, collaborations, or just to say hello!
 
 [http://linkedin.com/in/ananyachennadi]
 [ananyachennadi2@gmail.com]
