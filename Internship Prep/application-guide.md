@@ -1,16 +1,14 @@
 
-# Tech Spring Week Applications — Step‑by‑Step Guide (UK‑focused)
-
-**Goal:** Turn a first‑year CS profile into a top‑5% spring‑week candidate by shipping proof, telling a tight story, and avoiding generic fluff.
+# Tech Spring Week Applications — Step‑by‑Step Guide
 
 ---
 
 ## 0) What success looks like
-- ✅ 15–25 targeted applications (not spray-and-pray)
-- ✅ A CV with *3–5 quantifiable bullets* (impact, numbers, users, speed)
-- ✅ Public proof: 2 repos + 1 short write‑up (readme or blog)
-- ✅ Interview‑ready: 20–30 DSA problems (topic‑tagged), 3 mini “systems” prompts, 8 behavioral stories
-- ✅ Tracking: hit rate >25% OAs, >10% interviews
+- 15–25 targeted applications (not spray-and-pray)
+- A CV with *3–5 quantifiable bullets* (impact, numbers, users, speed)
+- Public proof: 2 repos + 1 short write‑up (readme or blog)
+- Interview‑ready: 20–30 DSA problems (topic‑tagged), 3 mini “systems” prompts, 8 behavioral stories
+- Tracking: hit rate >25% OAs, >10% interviews
 
 ---
 
@@ -42,13 +40,6 @@ Create a short, smart list instead of 80 low‑quality apps.
 
 **Company buckets to cover**
 - Big Tech (London/UK hubs), high‑growth product companies, quant/fintech, consulting tech, startups with real users.
-
-**Application tracker (copy this):**
-| Company | Program | Deadline | Status | Referral? | CV version | OA score | Interview date | Outcome |
-|---|---|---|---|---|---|---|---|---|
-| Acme Tech | Software Spring Week | 2025‑09‑30 | Applied | Y/N | v2‑backend | 84% | 2025‑10‑12 | — |
-
----
 
 ## 3) What reviewers look for (and how to show it fast)
 - **Evidence you ship:** live link, screenshots, CLI demo gif, repo with tests
